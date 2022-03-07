@@ -34,3 +34,4 @@ set ai "Auto indent"
 set si "Smart indent"
 set wrap "Wrap lines"
 syntax on
+inoremap { {<CR>}<Esc>ko
