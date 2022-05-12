@@ -29,4 +29,3 @@ alias text="vim"
 
 alias restartaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
-alias tlauncher="java -jar ~/Downloads/TLauncher-2.82/TLauncher-2.82.jar"
