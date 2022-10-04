@@ -31,3 +31,6 @@ alias restartaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{p
 
 alias setrandmac="sudo ifconfig en0 ether $(od -An -N6 -tx1 /dev/urandom | sed -e 's/^  *//' -e 's/  */:/g' -e 's/:$//' -e 's/^\(.\)[13579bdf]/\10/')"
 
+co(){
+    g++ $1.cpp -o $1
+}
