@@ -1,4 +1,3 @@
-alias py3="python3"
 alias python="python3"
 alias py="python3"
 alias pip="python3 -m pip"
@@ -10,6 +9,7 @@ alias /="cd /"
 alias ~="cd ~"
 alias prog="cd ~/Desktop/Ethan/Programming"
 alias comp="cd ~/Desktop/Ethan/Programming/Competitive-Programming"
+alias doc="cd ~/Documents"
 alias md="mkdir"
 alias rd="rmdir"
 alias dir="ls"
@@ -24,8 +24,6 @@ alias gm="git merge"
 alias gp="git push"
 alias gcl="git clone"
 alias gf="git fetch"
-
-alias text="vim"
 
 alias restartaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
