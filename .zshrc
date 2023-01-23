@@ -28,3 +28,5 @@ alias gf="git fetch"
 alias restartaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
 alias mac="sudo ifconfig en0 ether $(od -An -N6 -tx1 /dev/urandom | sed -e 's/^  *//' -e 's/  */:/g' -e 's/:$//' -e 's/^\(.\)[13579bdf]/\10/')"
+
+alias cfile="pbcopy < $1"
