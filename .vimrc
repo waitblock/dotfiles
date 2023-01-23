@@ -35,3 +35,4 @@ set si "Smart indent"
 set wrap "Wrap lines"
 syntax on
 inoremap {<CR> {<CR>}<Esc>ko
+set mouse=a
