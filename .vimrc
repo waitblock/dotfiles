@@ -3,7 +3,7 @@ set autoread
 set so=7
 set langmenu=en
 set wildmenu
-set ruler
+set noruler
 set laststatus=2
 set cmdheight=1
 set hid
@@ -38,4 +38,4 @@ syntax on
 inoremap {<CR> {<CR>}<Esc>ko
 set mouse=a
 set statusline=%f%m%r%h%w\ [%Y]\ [0x%02.2B]%<\ %4v,%4l\ %3p%%\ of\ %L\ lines
-
+colorscheme morning
