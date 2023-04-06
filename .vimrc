@@ -31,11 +31,12 @@ set shiftwidth=4
 set tabstop=4
 set lbr
 set tw=500
+set number
 set ai "Auto indent"
 set si "Smart indent"
 set wrap "Wrap lines"
 syntax on
 inoremap {<CR> {<CR>}<Esc>ko
 set mouse=a
-set statusline=%f%m%r%h%w\ [%Y]\ [0x%02.2B]%<\ %4v,%4l\ %3p%%\ of\ %L\ lines
+set statusline=%f%m%r%h%w\ [%Y]\ [0x%02.2B]%<\ %4l,%4v\ %3p%%\ of\ %L\ lines
 colorscheme morning
