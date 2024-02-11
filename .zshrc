@@ -21,6 +21,7 @@ alias gpl="git pull"
 alias gph="git push"
 alias gf="git fetch"
 alias gs="git status"
+alias gcl="git clone"
 
 alias restartaudio="sudo kill `ps -ax | grep 'coreaudiod' | grep 'sbin' |awk '{print $1}'`"
 
