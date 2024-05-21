@@ -17,6 +17,7 @@ set magic
 set mat=2
 set noerrorbells
 set novisualbell
+set cursorline
 set tm=500
 set foldcolumn=1
 set background=dark
@@ -39,4 +40,4 @@ syntax on
 inoremap {<CR> {<CR>}<Esc>ko
 set mouse=a
 set statusline=%f%m%r%h%w\ [%Y]\ [0x%02.2B]%<\ %4l,%4v\ %3p%%\ of\ %L\ lines
-colorscheme morning
+colorscheme delek
