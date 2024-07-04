@@ -1,6 +1,7 @@
 alias python="python3"
 alias py="python3"
 alias pip="python3 -m pip"
+alias idle="python3 -m idlelib.idle"
 
 alias ..="cd .."
 alias ...="cd ../.."
