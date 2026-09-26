@@ -15,7 +15,7 @@ heifconvall() {
 
 heifconv() {
     if [ -z "$1" ]; then
-        echo "Usage: heic2jpg1 <file.heic>"
+        echo "Usage: heifconv <file.heic>"
         return 1
     fi
     heif-convert "$1" "${1%.*}.jpg"
