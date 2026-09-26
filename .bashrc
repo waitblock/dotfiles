@@ -13,7 +13,7 @@ heifconvall() {
     fi
 }
 
-heicconv() {
+heifconv() {
     if [ -z "$1" ]; then
         echo "Usage: heic2jpg1 <file.heic>"
         return 1
